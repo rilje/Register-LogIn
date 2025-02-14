@@ -1,6 +1,16 @@
-[Web Sistemi i Tehnologije]
+# Register-LogIn
 
-Skripta start_console.bat pokrece konzolu u novom virtual enviromentu za trenutni projekat
-Skripta start_flask_server.bat pokrece main.py skriptu unutar src foldera
+This is a backend application built with Flask that handles user registration and login functionality. 
+It includes session management to keep users logged in after successful authentication.
+User credentials are securely stored and verified.
 
-Za sve dodatne informacije: dsijacic@raf.rs
+## Features
+
+- **User Registration** – Allows new users to create an account with required details.  
+- **User Login** – Authenticates existing users with their credentials.  
+
+## Technologies
+
+- **Flask** – For backend logic, routing, and session handling  
+- **MySQL** – For storing user data and credentials securely  
+- **Bootstrap 5** – For any frontend components (if needed)
